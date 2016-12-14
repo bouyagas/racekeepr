@@ -26,7 +26,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Race Keepr | plan.train.race.",
+      title: "Racekeepr | plan.train.race.",
       xhtml: true,
       inject: false,
       template: require('html-webpack-template'),
