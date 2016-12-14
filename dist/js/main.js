@@ -47,7 +47,7 @@
   \**********************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);var _reactDom=__webpack_require__(/*! react-dom */ 32);var _reactDom2=_interopRequireDefault(_reactDom);var _App=__webpack_require__(/*! ./App.js */ 178);var _App2=_interopRequireDefault(_App);__webpack_require__(/*! ./index.css */ 179);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}_reactDom2.default.render(_react2.default.createElement(_App2.default,null),document.querySelector('#root'));
+	'use strict';var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);var _reactDom=__webpack_require__(/*! react-dom */ 32);var _reactDom2=_interopRequireDefault(_reactDom);var _App=__webpack_require__(/*! ./App.js */ 178);var _App2=_interopRequireDefault(_App);__webpack_require__(/*! ./index.css */ 198);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}_reactDom2.default.render(_react2.default.createElement(_App2.default,null),document.querySelector('#root'));
 
 /***/ },
 /* 1 */
@@ -7513,7 +7513,7 @@
   \********************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);var _Header=__webpack_require__(/*! ./components/Header/Header.jsx */ 180);var _Header2=_interopRequireDefault(_Header);var _SearchForm=__webpack_require__(/*! ./components/SearchForm/SearchForm.jsx */ 182);var _SearchForm2=_interopRequireDefault(_SearchForm);var _Footer=__webpack_require__(/*! ./components/Footer/Footer.jsx */ 184);var _Footer2=_interopRequireDefault(_Footer);var _SearchList=__webpack_require__(/*! ./components/SearchList/SearchList.jsx */ 186);var _SearchList2=_interopRequireDefault(_SearchList);var _InterestList=__webpack_require__(/*! ./components/InterestList/InterestList.jsx */ 190);var _InterestList2=_interopRequireDefault(_InterestList);var _CompletedList=__webpack_require__(/*! ./components/CompletedList/CompletedList.jsx */ 192);var _CompletedList2=_interopRequireDefault(_CompletedList);var _Calendar=__webpack_require__(/*! ./components/Calendar/Calendar.jsx */ 194);var _Calendar2=_interopRequireDefault(_Calendar);__webpack_require__(/*! ./App.css */ 198);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}// import SearchListItem from './components/SearchListItem/SearchListItem.jsx';
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);var _Header=__webpack_require__(/*! ./components/Header/Header.jsx */ 179);var _Header2=_interopRequireDefault(_Header);var _SearchForm=__webpack_require__(/*! ./components/SearchForm/SearchForm.jsx */ 181);var _SearchForm2=_interopRequireDefault(_SearchForm);var _Footer=__webpack_require__(/*! ./components/Footer/Footer.jsx */ 183);var _Footer2=_interopRequireDefault(_Footer);var _SearchList=__webpack_require__(/*! ./components/SearchList/SearchList.jsx */ 185);var _SearchList2=_interopRequireDefault(_SearchList);var _InterestList=__webpack_require__(/*! ./components/InterestList/InterestList.jsx */ 189);var _InterestList2=_interopRequireDefault(_InterestList);var _CompletedList=__webpack_require__(/*! ./components/CompletedList/CompletedList.jsx */ 191);var _CompletedList2=_interopRequireDefault(_CompletedList);var _Calendar=__webpack_require__(/*! ./components/Calendar/Calendar.jsx */ 193);var _Calendar2=_interopRequireDefault(_Calendar);__webpack_require__(/*! ./App.css */ 197);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}// import SearchListItem from './components/SearchListItem/SearchListItem.jsx';
 	// import SavedList from './components/SavedList/SavedList.jsx';
 	var App=function(_Component){_inherits(App,_Component);function App(){_classCallCheck(this,App);var _this=_possibleConstructorReturn(this,(App.__proto__||Object.getPrototypeOf(App)).call(this));_this.state={races:[],savedraces:[],raceName:'',raceDate:'',raceLocation:'',raceDistance:'',racePicURL:'',notes:'',calendar:'',completed:'',selectedRace:''};return _this;}// get all races to choose from in db
 	_createClass(App,[{key:'getAllRaces',value:function getAllRaces(){var _this2=this;fetch('/api/races').then(function(r){return r.json();}).then(function(data){_this2.setState({races:data});console.log(_this2.state);}).catch(function(err){return console.log(err);});}// get all saved races
@@ -7532,24 +7532,15 @@
 
 /***/ },
 /* 179 */
-/*!***********************!*\
-  !*** ./src/index.css ***!
-  \***********************/
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 180 */
 /*!******************************************!*\
   !*** ./src/components/Header/Header.jsx ***!
   \******************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./Header.css */ 181);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var Header=function Header(props){return _react2.default.createElement('div',null,_react2.default.createElement('header',null,_react2.default.createElement('h1',null,_react2.default.createElement('span',null,'RaceKeepr'),' | plan. train. race.')));};exports.default=Header;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./Header.css */ 180);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var Header=function Header(props){return _react2.default.createElement('div',null,_react2.default.createElement('header',null,_react2.default.createElement('h1',null,_react2.default.createElement('span',null,'RaceKeepr'),' | plan. train. race.')));};exports.default=Header;
 
 /***/ },
-/* 181 */
+/* 180 */
 /*!******************************************!*\
   !*** ./src/components/Header/Header.css ***!
   \******************************************/
@@ -7558,16 +7549,16 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 182 */
+/* 181 */
 /*!**************************************************!*\
   !*** ./src/components/SearchForm/SearchForm.jsx ***!
   \**************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./SearchForm.css */ 183);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}var SearchForm=function(_Component){_inherits(SearchForm,_Component);function SearchForm(){_classCallCheck(this,SearchForm);return _possibleConstructorReturn(this,(SearchForm.__proto__||Object.getPrototypeOf(SearchForm)).apply(this,arguments));}_createClass(SearchForm,[{key:'render',value:function render(){return _react2.default.createElement('div',{id:'add-race-container'},_react2.default.createElement('input',{type:'text',placeholder:'Race Name',value:this.props.raceName,onChange:this.props.updateRaceName}),_react2.default.createElement('input',{type:'date',placeholder:'Race Date',value:this.props.raceDate,onChange:this.props.updateRaceDate}),_react2.default.createElement('input',{type:'text',placeholder:'Location',value:this.props.raceLocation,onChange:this.props.updateRaceLocation}),_react2.default.createElement('input',{type:'text',placeholder:'Distance',value:this.props.raceDistance,onChange:this.props.updateRaceDistance}),_react2.default.createElement('button',{onClick:this.props.handleFormSubmit},'add race'));}}]);return SearchForm;}(_react.Component);exports.default=SearchForm;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./SearchForm.css */ 182);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}var SearchForm=function(_Component){_inherits(SearchForm,_Component);function SearchForm(){_classCallCheck(this,SearchForm);return _possibleConstructorReturn(this,(SearchForm.__proto__||Object.getPrototypeOf(SearchForm)).apply(this,arguments));}_createClass(SearchForm,[{key:'render',value:function render(){return _react2.default.createElement('div',{id:'add-race-container'},_react2.default.createElement('input',{type:'text',placeholder:'Race Name',value:this.props.raceName,onChange:this.props.updateRaceName}),_react2.default.createElement('input',{type:'date',placeholder:'Race Date',value:this.props.raceDate,onChange:this.props.updateRaceDate}),_react2.default.createElement('input',{type:'text',placeholder:'Location',value:this.props.raceLocation,onChange:this.props.updateRaceLocation}),_react2.default.createElement('input',{type:'text',placeholder:'Distance',value:this.props.raceDistance,onChange:this.props.updateRaceDistance}),_react2.default.createElement('button',{onClick:this.props.handleFormSubmit},'add race'));}}]);return SearchForm;}(_react.Component);exports.default=SearchForm;
 
 /***/ },
-/* 183 */
+/* 182 */
 /*!**************************************************!*\
   !*** ./src/components/SearchForm/SearchForm.css ***!
   \**************************************************/
@@ -7576,16 +7567,16 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 184 */
+/* 183 */
 /*!******************************************!*\
   !*** ./src/components/Footer/Footer.jsx ***!
   \******************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./Footer.css */ 185);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var Footer=function Footer(props){return _react2.default.createElement('div',null,_react2.default.createElement('footer',null,_react2.default.createElement('p',null,'Crafted in NYC with ',_react2.default.createElement('span',{className:'hearts'},'\u2665'),' by Janelle R.')));};exports.default=Footer;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./Footer.css */ 184);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var Footer=function Footer(props){return _react2.default.createElement('div',null,_react2.default.createElement('footer',null,_react2.default.createElement('p',null,'Crafted in NYC with ',_react2.default.createElement('span',{className:'hearts'},'\u2665'),' by Janelle R.')));};exports.default=Footer;
 
 /***/ },
-/* 185 */
+/* 184 */
 /*!******************************************!*\
   !*** ./src/components/Footer/Footer.css ***!
   \******************************************/
@@ -7594,25 +7585,25 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 186 */
+/* 185 */
 /*!**************************************************!*\
   !*** ./src/components/SearchList/SearchList.jsx ***!
   \**************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);var _SearchListItem=__webpack_require__(/*! ../SearchListItem/SearchListItem */ 187);var _SearchListItem2=_interopRequireDefault(_SearchListItem);__webpack_require__(/*! ./SearchList.css */ 189);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}var SearchList=function(_Component){_inherits(SearchList,_Component);function SearchList(){_classCallCheck(this,SearchList);return _possibleConstructorReturn(this,(SearchList.__proto__||Object.getPrototypeOf(SearchList)).apply(this,arguments));}_createClass(SearchList,[{key:'componentWillMount',value:function componentWillMount(){this.props.getAllRaces();}},{key:'renderRaces',value:function renderRaces(){var _this2=this;return this.props.races.map(function(race,i){return _react2.default.createElement(_SearchListItem2.default,{key:i,name:race.name,race_date:race.race_date,location:race.location,distance:race.distance,url:race.url,id:race.id,handleDeleteRace:_this2.props.handleDeleteRace,changeSelection:_this2.props.changeSelection});});}},{key:'render',value:function render(){return _react2.default.createElement('div',{id:'results-container'},_react2.default.createElement('h3',null,'search race database'),this.renderRaces());}}]);return SearchList;}(_react.Component);exports.default=SearchList;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);var _SearchListItem=__webpack_require__(/*! ../SearchListItem/SearchListItem */ 186);var _SearchListItem2=_interopRequireDefault(_SearchListItem);__webpack_require__(/*! ./SearchList.css */ 188);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}var SearchList=function(_Component){_inherits(SearchList,_Component);function SearchList(){_classCallCheck(this,SearchList);return _possibleConstructorReturn(this,(SearchList.__proto__||Object.getPrototypeOf(SearchList)).apply(this,arguments));}_createClass(SearchList,[{key:'componentWillMount',value:function componentWillMount(){this.props.getAllRaces();}},{key:'renderRaces',value:function renderRaces(){var _this2=this;return this.props.races.map(function(race,i){return _react2.default.createElement(_SearchListItem2.default,{key:i,name:race.name,race_date:race.race_date,location:race.location,distance:race.distance,url:race.url,id:race.id,handleDeleteRace:_this2.props.handleDeleteRace,changeSelection:_this2.props.changeSelection});});}},{key:'render',value:function render(){return _react2.default.createElement('div',{id:'results-container'},_react2.default.createElement('h3',null,'search race database'),this.renderRaces());}}]);return SearchList;}(_react.Component);exports.default=SearchList;
 
 /***/ },
-/* 187 */
+/* 186 */
 /*!**********************************************************!*\
   !*** ./src/components/SearchListItem/SearchListItem.jsx ***!
   \**********************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./SearchListItem.css */ 188);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var SearchListItem=function SearchListItem(props){return _react2.default.createElement('div',{className:'search-list-item'},_react2.default.createElement('p',null,_react2.default.createElement('span',null,'race name:'),'  ',''+props.name),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'date:'),'  ',''+props.race_date.substring(0,10)),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'location:'),' ',''+props.location),_react2.default.createElement('button',{className:'save',onClick:function onClick(){return props.changeSelection(props.id);}},'add to schedule'));};exports.default=SearchListItem;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./SearchListItem.css */ 187);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var SearchListItem=function SearchListItem(props){return _react2.default.createElement('div',{className:'search-list-item'},_react2.default.createElement('p',null,_react2.default.createElement('span',null,'race name:'),'  ',''+props.name),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'date:'),'  ',''+props.race_date.substring(0,10)),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'location:'),' ',''+props.location),_react2.default.createElement('button',{className:'save',onClick:function onClick(){return props.changeSelection(props.id);}},'add to schedule'));};exports.default=SearchListItem;
 
 /***/ },
-/* 188 */
+/* 187 */
 /*!**********************************************************!*\
   !*** ./src/components/SearchListItem/SearchListItem.css ***!
   \**********************************************************/
@@ -7621,7 +7612,7 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 189 */
+/* 188 */
 /*!**************************************************!*\
   !*** ./src/components/SearchList/SearchList.css ***!
   \**************************************************/
@@ -7630,16 +7621,16 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 190 */
+/* 189 */
 /*!******************************************************!*\
   !*** ./src/components/InterestList/InterestList.jsx ***!
   \******************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./InterestList.css */ 191);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var InterestList=function InterestList(props){return _react2.default.createElement('div',{id:'workouts'},_react2.default.createElement('h3',null,'workouts'));};exports.default=InterestList;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./InterestList.css */ 190);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var InterestList=function InterestList(props){return _react2.default.createElement('div',{id:'workouts'},_react2.default.createElement('h3',null,'workouts'));};exports.default=InterestList;
 
 /***/ },
-/* 191 */
+/* 190 */
 /*!******************************************************!*\
   !*** ./src/components/InterestList/InterestList.css ***!
   \******************************************************/
@@ -7648,16 +7639,16 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 192 */
+/* 191 */
 /*!********************************************************!*\
   !*** ./src/components/CompletedList/CompletedList.jsx ***!
   \********************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./CompletedList.css */ 193);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var CompletedList=function CompletedList(props){return _react2.default.createElement('div',{id:'completed-races'},_react2.default.createElement('div',{id:'badge-ribbon'},_react2.default.createElement('h3',null,'accomplishments')));};exports.default=CompletedList;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./CompletedList.css */ 192);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var CompletedList=function CompletedList(props){return _react2.default.createElement('div',{id:'completed-races'},_react2.default.createElement('div',{id:'badge-ribbon'},_react2.default.createElement('h3',null,'accomplishments')));};exports.default=CompletedList;
 
 /***/ },
-/* 193 */
+/* 192 */
 /*!********************************************************!*\
   !*** ./src/components/CompletedList/CompletedList.css ***!
   \********************************************************/
@@ -7666,25 +7657,25 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 194 */
+/* 193 */
 /*!**********************************************!*\
   !*** ./src/components/Calendar/Calendar.jsx ***!
   \**********************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);var _SavedListItem=__webpack_require__(/*! ../SavedListItem/SavedListItem */ 195);var _SavedListItem2=_interopRequireDefault(_SavedListItem);__webpack_require__(/*! ./Calendar.css */ 197);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}var Calendar=function(_Component){_inherits(Calendar,_Component);function Calendar(){_classCallCheck(this,Calendar);return _possibleConstructorReturn(this,(Calendar.__proto__||Object.getPrototypeOf(Calendar)).apply(this,arguments));}_createClass(Calendar,[{key:'componentWillMount',value:function componentWillMount(){this.props.getSavedRaces();}},{key:'renderSavedRaces',value:function renderSavedRaces(){var _this2=this;return this.props.savedraces.map(function(race,i){return _react2.default.createElement(_SavedListItem2.default,{key:i,name:race.name,race_date:race.race_date,location:race.location,distance:race.distance,url:race.url,id:race.id,notes:race.notes,updateNotes:function updateNotes(e){return _this2.props.updateNotes(e);},updateNotesForm:_this2.props.updateNotesForm,handleDeleteSavedRace:_this2.props.handleDeleteSavedRace});});}},{key:'render',value:function render(){return _react2.default.createElement('div',{id:'calendar-container'},_react2.default.createElement('h3',null,'my race schedule'),this.renderSavedRaces());}}]);return Calendar;}(_react.Component);exports.default=Calendar;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);var _SavedListItem=__webpack_require__(/*! ../SavedListItem/SavedListItem */ 194);var _SavedListItem2=_interopRequireDefault(_SavedListItem);__webpack_require__(/*! ./Calendar.css */ 196);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}var Calendar=function(_Component){_inherits(Calendar,_Component);function Calendar(){_classCallCheck(this,Calendar);return _possibleConstructorReturn(this,(Calendar.__proto__||Object.getPrototypeOf(Calendar)).apply(this,arguments));}_createClass(Calendar,[{key:'componentWillMount',value:function componentWillMount(){this.props.getSavedRaces();}},{key:'renderSavedRaces',value:function renderSavedRaces(){var _this2=this;return this.props.savedraces.map(function(race,i){return _react2.default.createElement(_SavedListItem2.default,{key:i,name:race.name,race_date:race.race_date,location:race.location,distance:race.distance,url:race.url,id:race.id,notes:race.notes,updateNotes:function updateNotes(e){return _this2.props.updateNotes(e);},updateNotesForm:_this2.props.updateNotesForm,handleDeleteSavedRace:_this2.props.handleDeleteSavedRace});});}},{key:'render',value:function render(){return _react2.default.createElement('div',{id:'calendar-container'},_react2.default.createElement('h3',null,'my race schedule'),this.renderSavedRaces());}}]);return Calendar;}(_react.Component);exports.default=Calendar;
 
 /***/ },
-/* 195 */
+/* 194 */
 /*!********************************************************!*\
   !*** ./src/components/SavedListItem/SavedListItem.jsx ***!
   \********************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./SavedListItem.css */ 196);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var SavedListItem=function SavedListItem(props){return _react2.default.createElement('div',{className:'race-list-item'},_react2.default.createElement('p',null,_react2.default.createElement('span',null,'race name:'),'  ',''+props.name),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'date:'),'  ',props.race_date.substring(0,10)),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'location:'),' ',''+props.location),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'notes:'),' ',''+props.notes),_react2.default.createElement('div',{className:'modify-race'},_react2.default.createElement('input',{type:'text',placeholder:'enter notes',onChange:props.updateNotes}),_react2.default.createElement('button',{className:'notes',onClick:function onClick(){return props.updateNotesForm(props.id);}},'update notes')),_react2.default.createElement('button',{className:'delete',onClick:function onClick(){return props.handleDeleteSavedRace(props.id);}},'delete'));};exports.default=SavedListItem;
+	'use strict';Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(/*! react */ 1);var _react2=_interopRequireDefault(_react);__webpack_require__(/*! ./SavedListItem.css */ 195);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var SavedListItem=function SavedListItem(props){return _react2.default.createElement('div',{className:'race-list-item'},_react2.default.createElement('p',null,_react2.default.createElement('span',null,'race name:'),'  ',''+props.name),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'date:'),'  ',props.race_date.substring(0,10)),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'location:'),' ',''+props.location),_react2.default.createElement('p',null,_react2.default.createElement('span',null,'notes:'),' ',''+props.notes),_react2.default.createElement('div',{className:'modify-race'},_react2.default.createElement('input',{type:'text',placeholder:'enter notes',onChange:props.updateNotes}),_react2.default.createElement('button',{className:'notes',onClick:function onClick(){return props.updateNotesForm(props.id);}},'update notes')),_react2.default.createElement('button',{className:'delete',onClick:function onClick(){return props.handleDeleteSavedRace(props.id);}},'delete'));};exports.default=SavedListItem;
 
 /***/ },
-/* 196 */
+/* 195 */
 /*!********************************************************!*\
   !*** ./src/components/SavedListItem/SavedListItem.css ***!
   \********************************************************/
@@ -7693,7 +7684,7 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 197 */
+/* 196 */
 /*!**********************************************!*\
   !*** ./src/components/Calendar/Calendar.css ***!
   \**********************************************/
@@ -7702,10 +7693,19 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 198 */
+/* 197 */
 /*!*********************!*\
   !*** ./src/App.css ***!
   \*********************/
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 198 */
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
