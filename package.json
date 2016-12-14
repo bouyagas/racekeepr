@@ -44,6 +44,8 @@
     "watch": "webpack -d --progress --watch",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-prebuild": "bash ./scripts/deployment_react.sh",
+    "heroku-postbuild": "bash ./scripts/deployment_cleanup.sh"
   }
 }
