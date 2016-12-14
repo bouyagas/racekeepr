@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "body-parser": "^1.15.2",
-    "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "morgan": "^1.7.0",
     "node-fetch": "^1.6.3",
@@ -75,29 +74,5 @@
     "test": "node scripts/test.js --env=jsdom",
     "heroku-prebuild": "bash ./scripts/deployment_react.sh",
     "heroku-postbuild": "bash ./scripts/deployment_cleanup.sh"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}"
-    ],
-    "moduleNameMapper": {
-      "^.+\\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/config/jest/FileStub.js",
-      "^.+\\.css$": "<rootDir>/config/jest/CSSStub.js"
-    },
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>/(build|docs|node_modules)/"
-    ],
-    "testEnvironment": "node"
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   }
 }
