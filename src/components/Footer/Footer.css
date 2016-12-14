@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: 5px;
+  width: 1400px;
+}
+
+.hearts {
+  color: red;
+}

@@ -1,0 +1,21 @@
+#results-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  height: 400px;
+  width: 600px;
+  border-style: double;
+  margin: 20px;
+  overflow: auto;
+  box-shadow: 3px 3px grey;
+  border-color: crimson;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+button:hover {
+  color: crimson;
+}

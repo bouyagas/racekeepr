@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: 5px;
+  width: 1200px;
+  font-family: 'Molle', cursive;
+}
+
+span {
+  color: steelblue;
+}

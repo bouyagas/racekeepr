@@ -1,0 +1,33 @@
+#add-race-container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-flow: wrap;
+margin: 0;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+  width: 180px;
+  margin: 2px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+
+button {
+  border: none;
+  background-color: lightsteelblue;
+  color: steelblue;
+  font-size: 16px;
+/*  line-height: 30px;*/
+  margin: 2px;
+  padding: 1px;
+/*  width: 80px;*/
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
+}

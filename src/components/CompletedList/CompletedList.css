@@ -1,0 +1,47 @@
+#completed-races {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  height: 400px;
+  width: 600px;
+  border-style: double;
+  margin: 20px;
+  box-shadow: 3px 3px grey;
+  border-color: crimson;
+}
+
+
+/*#badge-ribbon {
+ position: relative;
+ background: steelblue;
+ height: 100px;
+ width: 100px;
+ -moz-border-radius:    50px;
+ -webkit-border-radius: 50px;
+ border-radius:         50px;
+}
+
+#badge-ribbon:before,
+#badge-ribbon:after {
+  content: '';
+  position: absolute;
+  border-bottom: 70px solid steelblue;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  top: 70px;
+  left: -10px;
+  -webkit-transform: rotate(-140deg);
+  -moz-transform:    rotate(-140deg);
+  -ms-transform:     rotate(-140deg);
+  -o-transform:      rotate(-140deg);
+}
+
+#badge-ribbon:after {
+  left: auto;
+  right: -10px;
+  -webkit-transform: rotate(140deg);
+  -moz-transform:    rotate(140deg);
+  -ms-transform:     rotate(140deg);
+  -o-transform:      rotate(140deg);
+}*/
