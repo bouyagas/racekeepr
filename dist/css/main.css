@@ -83,7 +83,7 @@ span {
   border-style: double;
   margin: 20px;
   overflow: auto;
-  box-shadow: 3px 3px grey;
+  box-shadow: 3px 3px 3px grey;
   border-color: crimson;
 }
 
