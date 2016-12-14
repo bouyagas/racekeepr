@@ -16,8 +16,8 @@ CREATE TABLE races (
 );
 
 
-COPY races (name, race_date, location)
--- UPDATE THIS PATH WITH YOUR OWN!
-FROM '/Users/janellerosario/documents/racekeepr/racekeepr/db/races.csv' with (format csv, delimiter ',');
+-- COPY races (name, race_date, location)
+-- -- UPDATE THIS PATH WITH YOUR OWN!
+-- FROM '/Users/janellerosario/documents/racekeepr/racekeepr/db/races.csv' with (format csv, delimiter ',');
 
 COMMIT;
