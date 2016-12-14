@@ -214,6 +214,7 @@ import './App.css';
   render() {
     return (
       <div className="App">
+      <link href="https://fonts.googleapis.com/css?family=Lato|Molle:400i" rel="stylesheet" />
         <Header
         />
         <SearchForm
