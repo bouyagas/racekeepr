@@ -1,4 +1,4 @@
-const db = require('../db/db');
+const db = require('../database/db');
 
 function getAllRaces(req, res, next) {
   db.any('SELECT * from races ORDER by race_date ASC;')
