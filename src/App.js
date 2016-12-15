@@ -30,7 +30,6 @@ import './App.css';
   }
 
   // get all races to choose from in db
-
   getAllRaces() {
     fetch(`/api/races`)
     .then(r => r.json())
@@ -58,7 +57,8 @@ import './App.css';
     .catch(err => console.log(err));
   }
 
-  // matching the id of the races in index w. selected
+  // matching the id of the races in index w. selected so it grabs the correct one
+  // for some reason it was grabbing the previous
   changeSelection(id) {
     const index = id - 1;
     this.setState({

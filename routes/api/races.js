@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { getAllRaces, addRace, deleteRace, deleteSavedRace, getSavedRaces, modifyRace } = require('../../models/race');
 
-// handle all the routes
+  // handle all the routes
 
   // GET all races to choose from
 router.get('/', getAllRaces, (req, res) => {

@@ -1,5 +1,5 @@
 const pg       = require('pg-promise')({});
-
+//database URL for heroku deployment
 const pgConfig = process.env.DATABASE_URL || {
                     host:     process.env.PG_HOST,
                     port:     process.env.PG_PORT,
