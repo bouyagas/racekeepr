@@ -9,6 +9,7 @@ const SavedListItem = props => (
     <p><span>notes:</span> {`${props.notes}`}</p>
     <div className="modify-race">
       <input
+        id="myForm"
         type="text"
         placeholder="enter notes"
         onChange={props.updateNotes}

@@ -45,7 +45,7 @@ function modifyRace(req, res, next) {
            SET notes = $1
            WHERE id = $2;`,
            [req.body.notes, req.body.id])
-  .then(() => console.log('Update complete!'))
+  .then(() => alert('Update complete!'))
   .then(next())
   .catch(err => next(err));
 }

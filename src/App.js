@@ -98,6 +98,7 @@ import './App.css';
     })
 
     .then(this.getSavedRaces());
+    alert('race added!')
   }
 
 // delete race out of the main db
@@ -176,6 +177,7 @@ import './App.css';
       body: JSON.stringify(updatedData),
     })
     .then(this.getSavedRaces())
+    alert('notes updated!')
     .catch(err => console.log(err));
   }
 
@@ -208,6 +210,7 @@ import './App.css';
       })
     })
     .then(this.getSavedRaces())
+    alert('added to schedule!')
     .catch(err => console.log(err));
   }
 
